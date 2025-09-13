@@ -1,0 +1,407 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .logo {
+  font-family: "Cursive", sans-serif;
+  color: #ff6347;
+  font-size: 24px;
+  margin: 0;
+}
+header .container .search {
+  flex: 1;
+  margin: 0 20px;
+}
+header .container .search input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+header .container .search button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+header .container .search button:hover {
+  background-color: rgb(255, 55.7608695652, 20);
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+}
+header .container nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header .container nav ul li {
+  margin: 0 10px;
+}
+header .container nav ul li a {
+  color: #ff6347;
+  text-decoration: none;
+}
+header .container nav ul li a:hover {
+  text-decoration: underline;
+}
+header .container nav .add-teacher-btn {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+header .container nav .add-teacher-btn:hover {
+  background-color: rgb(255, 55.7608695652, 20);
+}
+
+.top-teachers {
+  padding: 40px 0;
+}
+.top-teachers h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.top-teachers .filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.top-teachers .filters select, .top-teachers .filters label {
+  margin: 0 10px;
+}
+.top-teachers .teachers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+.top-teachers .teachers-grid .teacher-card {
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.top-teachers .teachers-grid .teacher-card .photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+.top-teachers .teachers-grid .teacher-card .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.top-teachers .teachers-grid .teacher-card .photo.initial {
+  background-color: #ffd700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+}
+.top-teachers .teachers-grid .teacher-card .photo.initial.orange {
+  background-color: orange;
+}
+.top-teachers .teachers-grid .teacher-card .photo.initial.red {
+  background-color: red;
+}
+.top-teachers .teachers-grid .teacher-card h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.top-teachers .teachers-grid .teacher-card p {
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.statistics {
+  padding: 40px 0;
+  background-color: #fff;
+}
+.statistics h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.statistics table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.statistics table th, .statistics table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+.statistics table th {
+  background-color: #ccc;
+}
+.statistics .pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+.statistics .pagination a, .statistics .pagination span {
+  margin: 0 5px;
+}
+
+.favorites {
+  padding: 40px 0;
+}
+.favorites h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.favorites .favorites-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.favorites .favorites-carousel .arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.favorites .favorites-carousel .carousel-items {
+  display: flex;
+  overflow: hidden;
+  width: 80%;
+}
+.favorites .favorites-carousel .carousel-items .favorite-card {
+  text-align: center;
+  margin: 0 10px;
+}
+.favorites .favorites-carousel .carousel-items .favorite-card .photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+.favorites .favorites-carousel .carousel-items .favorite-card .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.favorites .favorites-carousel .carousel-items .favorite-card .photo.initial {
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+}
+.favorites .favorites-carousel .carousel-items .favorite-card h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+.favorites .favorites-carousel .carousel-items .favorite-card p {
+  font-size: 14px;
+}
+.favorites .lorem {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #fff;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+footer .container ul li {
+  margin: 0 10px;
+}
+footer .container ul li a {
+  color: #ff6347;
+  text-decoration: none;
+}
+footer .container ul li a:hover {
+  text-decoration: underline;
+}
+footer .container .add-teacher-btn {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+footer .container .add-teacher-btn:hover {
+  background-color: rgb(255, 55.7608695652, 20);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal .modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  position: relative;
+}
+.modal .modal-content .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.modal .modal-content h2 {
+  text-align: center;
+}
+.modal .modal-content form {
+  display: flex;
+  flex-direction: column;
+}
+.modal .modal-content form label {
+  margin-top: 10px;
+}
+.modal .modal-content form input, .modal .modal-content form select, .modal .modal-content form textarea {
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+}
+.modal .modal-content form .radio-group {
+  display: flex;
+}
+.modal .modal-content form .radio-group label {
+  margin-right: 20px;
+}
+.modal .modal-content form button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.modal .modal-content form button:hover {
+  background-color: rgb(255, 55.7608695652, 20);
+}
+.modal .modal-content .teacher-profile img {
+  float: left;
+  margin-right: 20px;
+  width: 150px;
+  height: 200px;
+}
+.modal .modal-content .teacher-profile .info {
+  overflow: hidden;
+}
+.modal .modal-content .teacher-profile .info p {
+  margin: 5px 0;
+}
+.modal .modal-content .teacher-profile .info a {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+}
+
+.teacher-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 10px;
+  }
+  header .container {
+    flex-direction: column;
+  }
+  header .container .search {
+    margin: 10px 0;
+    width: 100%;
+  }
+  header .container .search input {
+    width: 70%;
+  }
+  header .container nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  header .container nav ul li {
+    margin: 5px 0;
+  }
+  header .container .add-teacher-btn {
+    margin: 10px 0 0 0;
+  }
+  .top-teachers .teachers-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+  .favorites .carousel-items {
+    flex-direction: column;
+  }
+  .modal .modal-content {
+    width: 90%;
+  }
+  table thead {
+    display: none;
+  }
+  table tbody tr {
+    display: block;
+    margin-bottom: 10px;
+  }
+  table tbody tr td {
+    display: block;
+    text-align: right;
+    position: relative;
+    padding-left: 50%;
+  }
+  table tbody tr td:before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+}
+
