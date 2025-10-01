@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachinder</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Teachinder</h1>
+            <div class="search">
+                <input type="text" placeholder="Name, note or age to search">
+                <button>Search</button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <button class="add-teacher-btn">Add teacher</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="top-teachers">
+            <div class="container">
+                <h2>Top Teachers</h2>
+                <div class="filters">
+                    <select>
+                        <option>Age: 18-31</option>
+                    </select>
+                    <select>
+                        <option>Region: Europe</option>
+                    </select>
+                    <select>
+                        <option>Sex: Male</option>
+                    </select>
+                    <label><input type="checkbox"> Only with photo</label>
+                    <label><input type="checkbox"> Only favorites</label>
+                </div>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <div class="photo"><img src="https://media.licdn.com/dms/image/v2/D4E03AQFiwonhwOXA2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1674426834636?e=2147483647&v=beta&t=f3sDJf45THBAgBg-KovxdRXf_pvQZwyDlNzQ9uj8Qsw" alt="Ihor Tkachuk"></div>
+                        <h3>Ihor Tkachuk</h3>
+                        <p>Chemistry</p>
+                        <p>Ukraine</p>
+                    </div>
+                    <div class="teacher-card">
+                        <div class="photo"><img src="https://grandchesstour.org/wp-content/uploads/2024/04/Praggnanandhaa.png" alt="Pragg Rameshbabu"></div>
+                        <h3>Pragg Rameshbabu</h3>
+                        <p>Chess</p>
+                        <p>India</p>
+                    </div>
+                    <div class="teacher-card">
+                        <div class="photo"><img src="https://i.pinimg.com/474x/00/72/5a/00725a87f7ef648e25e5a8119864826c.jpg" alt="Floor Jansen"></div>
+                        <h3>Floor Jansen</h3>
+                        <p>Vocal</p>
+                        <p>Denmark</p>
+                    </div>
+                    <div class="teacher-card">
+                        <div class="photo"><img src="https://www.focusonthefamily.com/wp-content/uploads/2020/04/john-burke.jpg" alt="John Burke"></div>
+                        <h3>John Burke</h3>
+                        <p>Computer Science</p>
+                        <p>Belgium</p>
+                    </div>
+                    <div class="teacher-card">
+                        <div class="photo"><img src="https://i.pinimg.com/736x/95/ab/27/95ab279f3e8c457e4ddd9a1889447e9f.jpg" alt="Ari Tang"></div>
+                        <h3>Ari Tang</h3>
+                        <p>Biology</p>
+                        <p>China</p>
+                    </div>
+                    <div class="teacher-card">
+                        <div class="photo initial">R.A.</div>
+                        <h3>Rachel Andrew</h3>
+                        <p>Medicine</p>
+                        <p>UK</p>
+                    </div>
+                    <div class="teacher-card">
+                        <div class="photo initial orange">A.M.</div>
+                        <h3>Anna Muzychuk</h3>
+                        <p>Chess</p>
+                        <p>Ukraine</p>
+                    </div>
+                    <div class="teacher-card">
+                        <div class="photo initial red">R.L.</div>
+                        <h3>Radislav Ljubevic</h3>
+                        <p>Physics</p>
+                        <p>Poland</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="statistics">
+            <div class="container">
+                <h2>Statistics</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Specialty</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                            <th>Nationality</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Daisy Alexander</td>
+                            <td>Chemistry</td>
+                            <td>28</td>
+                            <td>Female</td>
+                            <td>Vietnam</td>
+                        </tr>
+                        <tr>
+                            <td>Julia Bradley</td>
+                            <td>Math</td>
+                            <td>26</td>
+                            <td>Female</td>
+                            <td>USA</td>
+                        </tr>
+                        <tr>
+                            <td>Rita Hart</td>
+                            <td>Art</td>
+                            <td>41</td>
+                            <td>Female</td>
+                            <td>Ireland</td>
+                        </tr>
+                        <tr>
+                            <td>Jonathan Jacobs</td>
+                            <td>Math</td>
+                            <td>32</td>
+                            <td>Male</td>
+                            <td>England</td>
+                        </tr>
+                        <tr>
+                            <td>Nathaniel White</td>
+                            <td>Computer Science</td>
+                            <td>37</td>
+                            <td>Male</td>
+                            <td>Austria</td>
+                        </tr>
+                        <tr>
+                            <td>Frank Medina</td>
+                            <td>English</td>
+                            <td>43</td>
+                            <td>Male</td>
+                            <td>Italy</td>
+                        </tr>
+                        <tr>
+                            <td>Ella Curtis</td>
+                            <td>Chess</td>
+                            <td>34</td>
+                            <td>Female</td>
+                            <td>USA</td>
+                        </tr>
+                        <tr>
+                            <td>Claire Simmons</td>
+                            <td>Art</td>
+                            <td>38</td>
+                            <td>Female</td>
+                            <td>Netherlands</td>
+                        </tr>
+                        <tr>
+                            <td>Benjamin Knight</td>
+                            <td>Biology</td>
+                            <td>44</td>
+                            <td>Male</td>
+                            <td>Scotland</td>
+                        </tr>
+                        <tr>
+                            <td>Norma Rose</td>
+                            <td>Statistics</td>
+                            <td>50</td>
+                            <td>Female</td>
+                            <td>France</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pagination">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="favorites">
+            <div class="container">
+                <h2>Favorites</h2>
+                <div class="favorites-carousel">
+                    <button class="arrow left">&lt;</button>
+                    <div class="carousel-items">
+                        <div class="favorite-card">
+                            <div class="photo"><img src="https://media.licdn.com/dms/image/v2/D4E03AQFiwonhwOXA2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1674426834636?e=2147483647&v=beta&t=f3sDJf45THBAgBg-KovxdRXf_pvQZwyDlNzQ9uj8Qsw" alt="Ihor"></div>
+                            <h3>Ihor Tkachuk</h3>
+                            <p>Ukraine</p>
+                        </div>
+                        <div class="favorite-card">
+                            <div class="photo initial orange">A.M.</div>
+                            <h3>Anna Muzychuk</h3>
+                            <p>Ukraine</p>
+                        </div>
+                        <div class="favorite-card">
+                            <div class="photo"><img src="https://www.focusonthefamily.com/wp-content/uploads/2020/04/john-burke.jpg" alt="John"></div>
+                            <h3>John Burke</h3>
+                            <p>Belgium</p>
+                        </div>
+                        <div class="favorite-card">
+                            <div class="photo"><img src="https://i.pinimg.com/736x/95/ab/27/95ab279f3e8c457e4ddd9a1889447e9f.jpg" alt="Ari"></div>
+                            <h3>Ari Tang</h3>
+                            <p>China</p>
+                        </div>
+                        <div class="favorite-card">
+                            <div class="photo"><img src="https://i.pinimg.com/474x/00/72/5a/00725a87f7ef648e25e5a8119864826c.jpg" alt="Floor"></div>
+                            <h3>Floor Jansen</h3>
+                            <p>Denmark</p>
+                        </div>
+                    </div>
+                    <button class="arrow right">&gt;</button>
+                </div>
+                <p class="lorem">Teachinder</p>
+                <p class="lorem">Teachinder</p>
+                <p class="lorem">Teachinder</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <button class="add-teacher-btn">Add teacher</button>
+            </nav>
+        </div>
+    </footer>
+
+    
+    <div class="modal add-teacher-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Teacher</h2>
+            <form>
+                <label>Name</label>
+                <input type="text" placeholder="Enter name">
+                <label>Specialty</label>
+                <select>
+                    <option>Mathematics</option>
+                </select>
+                <label>Country</label>
+                <input type="text" value="Ukraine">
+                <label>City</label>
+                <input type="text">
+                <label>Email</label>
+                <input type="email">
+                <label>Phone</label>
+                <input type="tel">
+                <label>Date of birth</label>
+                <input type="date">
+                <label>Sex</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="sex" value="male"> Male</label>
+                    <label><input type="radio" name="sex" value="female"> Female</label>
+                </div>
+                <label>Background color</label>
+                <input type="color">
+                <label>Notes (optional)</label>
+                <textarea></textarea>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal teacher-info-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Teacher Info</h2>
+            <div class="teacher-profile">
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQFiwonhwOXA2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1674426834636?e=2147483647&v=beta&t=f3sDJf45THBAgBg-KovxdRXf_pvQZwyDlNzQ9uj8Qsw" alt="Ihor Tkachuk">
+                <div class="info">
+                    <h3>Ihor Tkachuk</h3>
+                    <p>Chemistry</p>
+                    <p>Kyiv, Ukraine</p>
+                    <p>35, Male</p>
+                    <p>ihor.tkachuk@domain.com</p>
+                    <p>+380694099152</p>
+                    <p>Супер-пупер викладач</p>
+                    <a href="#">toggle map</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const addBtn = document.querySelectorAll('.add-teacher-btn');
+        const addModal = document.querySelector('.add-teacher-modal');
+        const infoModal = document.querySelector('.teacher-info-modal'); 
+        const closes = document.querySelectorAll('.close');
+
+        addBtn.forEach(btn => {
+            btn.addEventListener('click', () => {
+                addModal.style.display = 'block';
+            });
+        });
+
+        closes.forEach(close => {
+            close.addEventListener('click', () => {
+                addModal.style.display = 'none';
+                infoModal.style.display = 'none';
+            });
+        });
+
+        
+        document.querySelector('.teacher-card').addEventListener('click', () => {
+            infoModal.style.display = 'block';
+        });
+    </script>
+
+    <script type="module" src="../js/script.js"></script>
+</body>
+</html>
