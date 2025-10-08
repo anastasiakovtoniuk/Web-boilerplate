@@ -1,0 +1,193 @@
+{
+  "teachers": [
+    {
+      "id": "3a5e85ae-6be4-40fc-9144-a1d87ceee862",
+      "full_name": "Анастасія Ковтонюк",
+      "course": "Mathematics",
+      "country": "Ukraine",
+      "state": "Київ",
+      "city": "Київ",
+      "email": "snowwhitequine@gmail.com",
+      "phone": "+380967766459",
+      "b_date": "2025-10-08",
+      "gender": "female",
+      "note": "No notes",
+      "bg_color": "#000000",
+      "picture": null,
+      "location": {
+        "city": "Київ",
+        "state": "",
+        "country": "Ukraine"
+      },
+      "age": 0
+    },
+    {
+      "id": "9a973658-822a-4754-a09b-f9257039a377",
+      "full_name": "Vladislav Artemenko",
+      "course": "Mathematics",
+      "country": "Ukraine",
+      "state": "Kyiv",
+      "city": "Kyiv",
+      "email": "v.artemen@gmail.com",
+      "phone": "+380967766459",
+      "b_date": "2002-01-24",
+      "gender": "male",
+      "note": "No notes",
+      "bg_color": "#000000",
+      "picture": null,
+      "location": {
+        "city": "Kyiv",
+        "state": "",
+        "country": "Ukraine"
+      },
+      "age": 23
+    },
+    {
+      "id": "a9e452e1-a412-45c5-b8c5-d3e47c5e75f8",
+      "full_name": "Lala Lele",
+      "course": "Mathematics",
+      "country": "Ukraine",
+      "state": "Lviv",
+      "city": "Lviv",
+      "email": "lelelala@gmail.com",
+      "phone": "+380973355423",
+      "b_date": "2025-10-08",
+      "gender": "male",
+      "note": "No notes",
+      "bg_color": "#000000",
+      "picture": null,
+      "location": {
+        "city": "Lviv",
+        "state": "",
+        "country": "Ukraine"
+      },
+      "age": 0
+    },
+    {
+      "id": "a2b3d8d8-667a-4759-821d-a350b5f33809",
+      "full_name": "Effie Lloyd",
+      "course": "Mathematics",
+      "country": "Canada",
+      "state": "Toronto",
+      "city": "Toronto",
+      "email": "example@gmail.com",
+      "phone": "+123456789101",
+      "b_date": "2002-01-18",
+      "gender": "female",
+      "note": "No notes",
+      "bg_color": "#000000",
+      "picture": null,
+      "location": {
+        "city": "Toronto",
+        "state": "",
+        "country": "Canada"
+      },
+      "age": 23
+    },
+    {
+      "id": "aee6e4ee-0033-40f5-8116-544330a4a1c1",
+      "full_name": "Erna Blanchard",
+      "course": "Mathematics",
+      "country": "Norway",
+      "state": "Oslo",
+      "city": "Oslo",
+      "email": "erna@gmail.com",
+      "phone": "+12023890380",
+      "b_date": "2003-02-28",
+      "gender": "female",
+      "note": "No notes",
+      "bg_color": "#000000",
+      "picture": null,
+      "location": {
+        "city": "Oslo",
+        "state": "",
+        "country": "Norway"
+      },
+      "age": 22
+    },
+    {
+      "id": "f8f0b182-2fc3-4037-acd1-523756bdbae6",
+      "full_name": "Rebecca Walsh",
+      "course": "Mathematics",
+      "country": "Ukraine",
+      "state": "Sdsdsda",
+      "city": "Sdsdsda",
+      "email": "rebecca@gmail.com",
+      "phone": "+123345465",
+      "b_date": "2002-01-17",
+      "gender": "female",
+      "note": "No notes",
+      "bg_color": "#000000",
+      "picture": null,
+      "location": {
+        "city": "Sdsdsda",
+        "state": "",
+        "country": "Ukraine"
+      },
+      "age": 23
+    },
+    {
+      "id": "2057c814-e834-4f37-a012-ed03766951af",
+      "full_name": "Afsfasfsd",
+      "course": "Mathematics",
+      "country": "Ukraine",
+      "state": "Fasasfsfa",
+      "city": "Fasasfsfa",
+      "email": "fasfasfas@gmail.com",
+      "phone": "+380957732424",
+      "b_date": "2008-01-08",
+      "gender": "male",
+      "note": "No notes",
+      "bg_color": "#000000",
+      "picture": null,
+      "location": {
+        "city": "Fasasfsfa",
+        "state": "",
+        "country": "Ukraine"
+      },
+      "age": 17
+    },
+    {
+      "id": "f9dcca3c-8cc0-4d82-bfba-2a5e3d35cbf2",
+      "full_name": "Helene Petersen",
+      "course": "Mathematics",
+      "country": "Ukraine",
+      "state": "Sadadad",
+      "city": "Sadadad",
+      "email": "exansdj@gmail.com",
+      "phone": "+3809673244",
+      "b_date": "1998-12-24",
+      "gender": "female",
+      "note": "No notes",
+      "bg_color": "#000000",
+      "picture": null,
+      "location": {
+        "city": "Sadadad",
+        "state": "",
+        "country": "Ukraine"
+      },
+      "age": 26
+    },
+    {
+      "id": "ed768663-d6c2-4bb8-96db-f01024498e25",
+      "full_name": "Nannie Reynolds",
+      "course": "Mathematics",
+      "country": "Italy",
+      "state": "Milan",
+      "city": "Milan",
+      "email": "ecamsad@gmail.com",
+      "phone": "+123456785674",
+      "b_date": "1983-01-25",
+      "age": 42,
+      "gender": "female",
+      "note": "Cool",
+      "bg_color": "#000000",
+      "picture": null,
+      "location": {
+        "city": "Milan",
+        "state": "",
+        "country": "Italy"
+      }
+    }
+  ]
+}

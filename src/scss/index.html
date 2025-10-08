@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachinder</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="image/png" href="/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Teachinder</h1>
+            <form id="search-form" class="search">
+  <select name="field" aria-label="Field">
+    <option value="name">Name</option>
+    <option value="note">Note</option>
+    <option value="age">Age</option>
+  </select>
+  <input name="q" type="text" placeholder="Name, note or age" />
+  <button type="submit">Search</button>
+            </form>
+
+
+            <nav>
+                <ul>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <button class="add-teacher-btn">Add teacher</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="filters">
+  <form id="filters-form">
+    <label>
+      Country
+      <select name="country">
+        <option value="">All countries</option>
+      </select>
+    </label>
+
+    <label>
+      Gender
+      <select name="gender">
+        <option value="">All</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </label>
+
+    <label>
+      Age
+      <select name="ageRange">
+        <option value="">All ages</option>
+        <option value="18-25">18–25</option>
+        <option value="26-35">26–35</option>
+        <option value="36-45">36–45</option>
+        <option value="46-60">46–60</option>
+        <option value="60+">60+</option>
+      </select>
+    </label>
+
+    <label class="fav-only">
+      <input type="checkbox" name="favorite"> Only favorites
+    </label>
+
+    <button type="submit">Apply</button>
+    <button type="reset">Reset</button>
+  </form>
+</section>
+  
+<main class="container">
+    <section class="teachers">
+      <div class="teachers-grid"></div>
+    </section>
+  </main>
+
+   <dialog id="teacher-modal">
+    <form method="dialog">
+      <button class="close-btn" aria-label="Close">✖</button>
+    </form>
+    <div id="teacher-details"></div>
+  </dialog>
+
+        <section class="statistics">
+  <div class="container">
+    <h2>Statistics</h2>
+    <table>
+      <thead>
+        <tr>
+          <th data-sort="full_name">Name</th>
+          <th data-sort="course">Specialty</th>
+          <th data-sort="age">Age</th>
+          <th>Gender</th>
+          <th data-sort="country">Nationality</th>
+          <th data-sort="b_day">Birthday</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div class="pagination"></div>
+  </div>
+</section>
+
+
+        <section class="favorites">
+            <div class="container">
+                <h2>Favorites</h2>
+                <div class="favorites-carousel">
+                    <button class="arrow left">&lt;</button>
+                    <div class="carousel-items"></div>
+                    <button class="arrow right">&gt;</button>
+                </div>
+                <p class="lorem">Teachinder</p>
+                <p class="lorem">Teachinder</p>
+                <p class="lorem">Teachinder</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Teachers</a></li>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">Favorites</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <button class="add-teacher-btn">Add teacher</button>
+            </nav>
+        </div>
+    </footer>
+
+    
+    <div class="modal add-teacher-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Teacher</h2>
+            <form>
+                <label>Name</label>
+                <input name="name" type="text" placeholder="Enter name" required>
+                <label>Specialty</label>
+                <select name="course" required>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Biology">Biology</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Art">Art</option>
+                <option value="Law">Law</option>
+                <option value="English">English</option>
+                <option value="Statistics">Statistics</option>
+                </select>
+                <label>Country</label>
+                <input name="country" type="text" value="Ukraine" required>
+                <label>City</label>
+                <input name="city" type="text">
+                <label>Email</label>
+                <input name="email" type="email" placeholder="name@example.com">
+                <label>Phone</label>
+                <input name="phone" type="tel" placeholder="+380...">
+                <label>Date of birth</label>
+                <input name="b_date" type="date" required>
+                <label>Sex</label>
+                <div class="radio-group">
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <label><input type="radio" name="gender" value="female" required> Female</label>
+                </div>
+                <label>Background color</label>
+                <input name="bg_color" type="color">
+                <label>Notes (optional)</label>
+                <textarea name="note" placeholder="Additional notes"></textarea>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+    
+
+   <dialog id="teacher-modal">
+  <div id="teacher-details"></div>
+</dialog>
+
+<script type="module" src="../js/script.js"></script>
+</body>
+</html>
